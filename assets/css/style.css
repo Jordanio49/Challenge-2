@@ -16,7 +16,7 @@ header {
     padding: 20px 40px;
     background-color: var(--color3);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     position: sticky;
     top: 0;
@@ -35,6 +35,11 @@ header h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+header img {
+    max-width: 120px;
+    max-height: 120px;
 }
 
 header a {
