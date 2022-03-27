@@ -134,11 +134,16 @@ header nav ul li a:hover {
 }
 
 .links div {
+    opacity: .25;
     width: 25%;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end; 
     padding: 20px 20px;
+}
+
+.links div:hover {
+    opacity: 100%;
 }
 
 .links .run-buddy {
