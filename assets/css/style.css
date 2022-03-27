@@ -190,7 +190,7 @@ header nav ul li a:hover {
     color: var(--color1);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 908px) {
     header nav ul li a {
         display: inline-block;
         flex: 1 100%;
