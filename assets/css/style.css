@@ -1,6 +1,6 @@
 :root {
     --color1: rgb(87, 84, 84);
-    --color2: teal;
+    --color2: #50acfd;
     --color3: lightgray;
     --color4: darkblue;
 }
@@ -11,22 +11,56 @@
     padding: 0;
 }
 
-/* need to make darkgray background box smaller */
+/* why is my header covering up the about me when i click the link? */
 header {
-    margin: 0;
-    padding: 50px 0 10px 0;
-    background-color: var(--color1);
+    padding: 20px 40px;
+    background-color: var(--color3);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    position: relative;
+    position: sticky;
     top: 0;
+    z-index: 9999;
 }
 
 header h1 {
-    height: 40px;
-    width: 250px;
+    padding: 0 20px 0px 20px;
+    height: auto;
+    width: auto;
+    font-size: 50px;
     font-weight: bold;
     background-color: var(--color2);
     color: var(--color1);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--color1);
+}
+
+header nav {
+    display: flex;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
+
+header nav ul li a {
+    padding: 15px 20px;
+    font-size: 1.5vw;
+}
+
+header nav ul li a:hover {
+    font-weight: bold;
+    background: var(--color2);
+    border-radius: 25px;
 }
