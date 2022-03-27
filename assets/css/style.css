@@ -14,7 +14,7 @@
 
 /* why is my header covering up the about me when i click the link? */
 header {
-    padding: 20px 40px;
+    padding: 10px 30px;
     background-color: var(--color3);
     display: flex;
     justify-content: space-evenly;
@@ -32,7 +32,7 @@ header h1 {
     font-weight: bold;
     background-color: var(--color2);
     color: var(--color1);
-    border-radius: 50px;
+    border-radius: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -82,6 +82,11 @@ header nav ul li a:hover {
     align-items: flex-end;
     flex-wrap: wrap;
 }
+.hero-subtitle h2 {
+    padding: 5px;
+    background-color: var(--color3);
+    border-radius: 25px;
+}
 
 #about-me {
     display: flex;
@@ -129,7 +134,7 @@ header nav ul li a:hover {
     width: 75%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-self: flex-end;
 }
 
@@ -174,9 +179,50 @@ header nav ul li a:hover {
 }
 
 .contact-info {
+    color: var(--color1);
     width: 75%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-self: center;
+}
+
+@media screen and (max-width: 768px) {
+    header nav ul li a {
+        display: inline-block;
+        flex: 1 100%;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .section-title {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    header h1 {
+        font-size: 30px;
+    }
+
+    header img {
+        padding-top: 5px;
+    }
+
+    header nav ul li a {
+        font-size: 10px;
+    }
+    
+    .section-title h2 {
+        padding-right: 2px;
+        font-size: 17px;
+    }
+
+    .links div {
+        width: 100%;
+    }
+
+    .contact-info {
+        font-size: 15px;
+    }
 }
