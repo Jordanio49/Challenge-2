@@ -1,7 +1,7 @@
 :root {
     --color1: rgb(87, 84, 84);
     --color2: #50acfd;
-    --color3: lightgray;
+    --color3: #e7e2dd;
     --color4: darkblue;
 }
 
@@ -9,6 +9,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    background-color: var(--color3);
 }
 
 /* why is my header covering up the about me when i click the link? */
@@ -88,6 +89,7 @@ header nav ul li a:hover {
 }
 
 .section-title {
+    color: var(--color1);
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
@@ -109,6 +111,7 @@ header nav ul li a:hover {
 }
 
 .text p {
+    color: var(--color1);
     text-indent: 35px;
     padding: 20px 20px;
     align-self: flex-start;
