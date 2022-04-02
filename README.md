@@ -18,5 +18,10 @@ This project asked that I build an online portfolio for my work.
 
 ## **Screenshot**
 
+![Screenshot of My Portfolio](assets/images/portfolio-screenshot.png)
 
 ## **Link to Page and Repository**
+
+1. Page:  https://jordanio49.github.io/Challenge-2/
+
+2. Repository: https://github.com/Jordanio49/Challenge-2
