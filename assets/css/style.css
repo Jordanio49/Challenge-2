@@ -19,7 +19,6 @@ header {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    position: sticky;
     top: 0;
     z-index: 9999;
 }
@@ -134,8 +133,6 @@ header nav ul li a:hover {
     width: 75%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-self: flex-end;
 }
 
 .links div {
@@ -143,7 +140,6 @@ header nav ul li a:hover {
     width: 25%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-end; 
     padding: 20px 20px;
 }
 
