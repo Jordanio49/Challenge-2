@@ -18,7 +18,7 @@ This project asked that I build an online portfolio for my work.
 
 ## **Screenshot**
 
-![Screenshot of My Portfolio](assets/images/portfolio-screenshot.png)
+![Screenshot of My Portfolio](assets/images/new-portfolio-screenshot.png)
 
 ## **Link to Page and Repository**
 
